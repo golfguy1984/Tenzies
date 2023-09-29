@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "nanoid": "5.0.1",
+    "tailwind": "4.0.0",
+    "bootstrap": "5.3.2",
+    "react-timer-hook": "3.0.7"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "@vitejs/plugin-react": "*"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
