@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #0B2434;
+    font-family: 'Roboto', sans-serif;
  }
  
  
@@ -49,6 +50,7 @@ body {
  
  p {
      margin: 0 35px;
+     font-weight: 300;
 
  }
  
