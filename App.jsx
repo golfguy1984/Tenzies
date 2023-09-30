@@ -1,6 +1,7 @@
 import React from 'react'
 import Die from './Die'
 import { nanoid } from 'nanoid'
+import Confetti from 'react-confetti'
 
 
 
@@ -111,6 +112,7 @@ function rollDice() {
 
   return (
     <main>
+        {tenzies && <Confetti />}
         <div className="timer-container">
             <span>{(("0" + Math.floor((time / 60000) % 60))).slice(-2)}:</span>
             <span>{(("0" + Math.floor((time / 1000) % 60))).slice(-2)}:</span>

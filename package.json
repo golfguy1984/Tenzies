@@ -1,16 +1,17 @@
 {
   "name": "project",
   "dependencies": {
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "nanoid": "5.0.1",
-    "tailwind": "4.0.0",
     "bootstrap": "5.3.2",
-    "react-timer-hook": "3.0.7"
+    "nanoid": "5.0.1",
+    "react": "18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "18.2.0",
+    "react-timer-hook": "3.0.7",
+    "tailwind": "4.0.0"
   },
   "devDependencies": {
-    "vite": "latest",
-    "@vitejs/plugin-react": "*"
+    "@vitejs/plugin-react": "*",
+    "vite": "latest"
   },
   "scripts": {
     "start": "vite",
